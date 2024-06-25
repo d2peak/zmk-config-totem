@@ -26,7 +26,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <270>;
 };
 
 / {
@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                     &kp Q        &kp W        &kp E    &kp R          &kp T      &kp Z    &mt RA(Q) U    &kp I               &mt O RA(P)       &kp P
-                     &mt RA(Q) A  &mt RA(S) S  &kp D    &kp F          &kp G      &kp H    &kp J          &kp K               &mt RALT L        &mt RIGHT_SHIFT RA(P)
-&mt LSHIFT LEFT_WIN  &kp Y        &kp X        &kp C    &kp V          &kp B      &kp N    &kp M          &mt LS(SEMI) COMMA  &mt LS(SEMI) DOT  &kp MINUS              &mt RIGHT_SHIFT RIGHT_GUI
-                                               &kp DEL  &lt NAV SPACE  &kp TAB    &kp RET  &lt SYM SPACE  &kp BSPC
+              &kp Q        &kp W        &kp E               &kp R             &kp T      &kp Z    &mt RA(Y) U        &kp I                &mt RA(P) O       &kp P
+              &mt RA(Q) A  &mt RA(S) S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G      &kp H    &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RALT L        &mt EXCL QUESTION
+&kp LEFT_WIN  &kp Y        &kp X        &kp C               &kp V             &kp B      &kp N    &kp M              &mt LS(SEMI) COMMA   &mt LS(SEMI) DOT  &kp MINUS          &kp RIGHT_WIN
+                                        &kp DEL             &lt NAV SPACE     &kp TAB    &kp RET  &lt SYM SPACE      &kp BSPC
             >;
         };
 
